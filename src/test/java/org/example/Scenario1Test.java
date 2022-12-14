@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class Scenario1Test {
 
     @BeforeTest
-    void beforeSuiteMethod(){
+    void beforeTestMethod(){
         System.out.println("before test");
     }
     @Test
